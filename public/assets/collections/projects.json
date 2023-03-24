@@ -1,0 +1,179 @@
+[
+  {
+    "name": "Lifespa",
+    "web": "http://lifespafitness.com",
+    "image": "lifespa.jpg",
+    "type": "backend",
+    "tech": [
+      "PHP",
+      "MYSQL",
+      "JAVASCRIPT"
+    ]
+  },
+  {
+    "name": "Ecocare",
+    "web": "https://ecocare.id/",
+    "image": "ecocare.jpeg",
+    "type": "fullstack",
+    "tech": [
+      "PHP",
+      "CODEIGNETER",
+      "MYSQL",
+      "NGINX",
+      "JQUERY",
+      "BOOTSTRAP"
+    ]
+  },
+  {
+    "name": "Masjidku",
+    "web": "https://masjidku.net/",
+    "image": "masjidku.svg",
+    "type": "fullstack",
+    "tech": [
+      "PHP",
+      "CODEIGNETER",
+      "MYSQL",
+      "NGINX",
+      "BOOTSTRAP",
+      "JQUERY"
+    ]
+  },
+  {
+    "name": "Refill My Bottle",
+    "web": "https://refillmybottle.com/",
+    "image": "refill.png",
+    "type": "fullstack",
+    "tech": [
+      "PHP",
+      "CODEIGNETER",
+      "MYSQL",
+      "NGINX",
+      "BOOTSTRAP",
+      "JQUERY"
+    ]
+  },
+  {
+    "name": "Privilegez",
+    "web": "x-one.privilegez.com/",
+    "image": "privilegez.png",
+    "type": "fullstack",
+    "tech": [
+      "LARAVEL",
+      "MARIADB",
+      "NGINX",
+      "BOOTSTRAP",
+      "JQUERY"
+    ]
+  },
+  {
+    "name": "Inkindo",
+    "web": "https://inkindo-dki.org/",
+    "image": "inkindo.png",
+    "type": "fullstack",
+    "tech": [
+      "PHP",
+      "CODEIGNETER",
+      "MYSQL",
+      "NGINX",
+      "BOOTSTRAP",
+      "JQUERY"
+    ]
+  },
+  {
+    "name": "Pesonalokal",
+    "web": "https://pesonalokal.com/",
+    "image": "pesonalokal.svg",
+    "type": "backend",
+    "tech": [
+      "PHP",
+      "LARAVEL",
+      "MARIADB",
+      "NGINX"
+    ]
+  },
+  {
+    "name": "Lykos",
+    "web": "https://www.lykos.co/",
+    "image": "lykos.svg",
+    "type": "backend",
+    "tech": [
+      "LARAVEL",
+      "MARIADB"
+    ]
+  },
+  {
+    "name": "All About Jazz",
+    "web": "https://www.allaboutjazz.com/",
+    "image": "allaboutjazz.svg",
+    "type": "fullstack",
+    "tech": [
+      "LARAVEL",
+      "JQUERY",
+      "PHP",
+      "NGINX",
+      "BOOTSTRAP"
+    ]
+  },
+  {
+    "name": "BBTMC-BPPT",
+    "web": "https://www.bppt.go.id/",
+    "image": "bppt.png",
+    "type": "fullstack",
+    "tech": [
+      "LARAVEL",
+      "VUEJS",
+      "BOOTSTRAP",
+      "NGINX",
+      "MYSQL"
+    ]
+  },
+  {
+    "name": "Gotoko",
+    "web": "https://gotoko.co.id/",
+    "image": "gotoko.png",
+    "type": "frontend",
+    "tech": [
+      "REACTJS",
+      "DOCKER",
+      "REDUX",
+      "TAILWIND"
+    ]
+  },
+  {
+    "name": "Jati Tinggi Holding",
+    "web": "https://jatitinggi.com/",
+    "image": "jatitinggi.jpg",
+    "type": "fullstack",
+    "tech": [
+      "LARAVEL",
+      "JQUERY",
+      "NGINX",
+      "BOOTSTRAP",
+      "MYSQL"
+    ]
+  },
+  {
+    "name": "Penakita",
+    "web": "https://penakita.id/",
+    "image": "penakita.png",
+    "type": "backend",
+    "tech": [
+      "NODEJS",
+      "DOCKER",
+      "POSTGRESQL",
+      "NGINX"
+    ]
+  },
+  {
+    "name": "Sepaket",
+    "web": "https://sepaket.co.id/",
+    "image": "sepaket.svg",
+    "type": "backend",
+    "tech": [
+      "NODEJS",
+      "DOCKER",
+      "POSTGRESQL",
+      "NGINX"
+    ]
+  }
+]
