@@ -80,6 +80,18 @@
     ]
   },
   {
+    "name": "Lapaktrip",
+    "web": "https://pesonalokal.com/",
+    "image": "lapaktrip.jpeg",
+    "type": "backend",
+    "tech": [
+      "PHP",
+      "LARAVEL",
+      "MARIADB",
+      "NGINX"
+    ]
+  },
+  {
     "name": "Pesonalokal",
     "web": "https://pesonalokal.com/",
     "image": "pesonalokal.svg",
@@ -165,6 +177,21 @@
     ]
   },
   {
+    "name": "Alteacare",
+    "web": "https://alteacare.com/",
+    "image": "alteacare.svg",
+    "type": "fullstack",
+    "tech": [
+      "NODEJS",
+      "REACTJS",
+      "NEXTJS",
+      "DOCKER",
+      "POSTGRESQL",
+      "MONGODB",
+      "TAILWIND"
+    ]
+  },
+  {
     "name": "Sepaket",
     "web": "https://sepaket.co.id/",
     "image": "sepaket.svg",
@@ -174,6 +201,38 @@
       "DOCKER",
       "POSTGRESQL",
       "NGINX"
+    ]
+  },
+  {
+    "name": "Telkom DBM",
+    "web": "https://www.telkom.co.id/sites",
+    "image": "dbm.png",
+    "type": "backend",
+    "tech": [
+      "LARAVEL",
+      "DOCKER",
+      "NGINX",
+      "POSTGRESQL"
+    ]
+  },
+  {
+    "name": "Binus University",
+    "web": "https://binus.ac.id/",
+    "image": "binus.png",
+    "type": "frontend",
+    "tech": [
+      "REACTJS",
+      "TAILWIND"
+    ]
+  },
+  {
+    "name": "Omsetku",
+    "web": "https://goodeva.co.id/goodeva-omsetku",
+    "image": "omsetku.png",
+    "type": "frontend",
+    "tech": [
+      "REACTJS",
+      "CSS"
     ]
   }
 ]
