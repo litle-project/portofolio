@@ -24,7 +24,7 @@ import { RouterLink } from 'vue-router'
   <nav class="bg-white border-neutral-100 border-b-2 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900 z-20 absolute sticky top-0">
     <div class="container flex flex-wrap items-center justify-between px-10 mx-auto">
       <a href="/" class="flex items-center">
-          <img src="/assets/images/site/logo.png" class="h-6 mr-3 sm:h-9" alt="Flowbite Logo" />
+          <img src="/assets/images/site/logo.svg" class="h-6 mr-3 sm:h-9" alt="Portofolio Logo" />
           <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Personal Portofolio</span>
       </a>
       <button
