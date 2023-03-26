@@ -106,10 +106,23 @@
   {
     "name": "Lykos",
     "web": "https://www.lykos.co/",
-    "image": "lykos.svg",
+    "image": "lykos.png",
     "type": "backend",
     "tech": [
       "LARAVEL",
+      "MARIADB"
+    ]
+  },
+  {
+    "name": "Stackbuttler",
+    "web": "https://stackbutler.com/",
+    "image": "stackbutler.svg",
+    "type": "fullstack",
+    "tech": [
+      "LARAVEL",
+      "VUEJS",
+      "NGINX",
+      "BOOTSTRAP",
       "MARIADB"
     ]
   },

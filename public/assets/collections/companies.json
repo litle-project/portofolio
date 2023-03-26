@@ -1,0 +1,44 @@
+[
+  {
+    "name": "PT. Digital Angkasa (Codelabs Indonesia)",
+    "image": "codelabs.png",
+    "industry": "IT Solution Provider",
+    "web": "https://www.codelabs.co.id/"
+  },
+  {
+    "name": "PT.Lapaktrip Teknologi Indonesia",
+    "image": "lapaktrip.webp",
+    "industry": "Travel & Tourism",
+    "web": "https://www.lapaktrip.com/"
+  },
+  {
+    "name": "PT. Digital Sehat Nusantara (Alteacare)",
+    "image": "alteacare.svg",
+    "industry": "Health Care",
+    "web": "https://www.alteacare.com/"
+  },
+  {
+    "name": "Worka",
+    "image": "worka.png",
+    "industry": "IT Solution Provider",
+    "web": "https://www.worka.id/"
+  },
+  {
+    "name": "Azura",
+    "image": "azura.png",
+    "industry": "IT Solution Provider",
+    "web": "https://www.azuralabs.id/"
+  },
+  {
+    "name": "Dikita",
+    "image": "dikita.svg",
+    "industry": "IT Solution Provider",
+    "web": "https://dikitaintegrasi.com/"
+  },
+  {
+    "name": "Laniakea",
+    "image": "laniakea.png",
+    "industry": "IT Solution Provider",
+    "web": "https://laniakeadigital.com//"
+  }
+]
