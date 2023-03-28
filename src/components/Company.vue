@@ -1,12 +1,11 @@
 <script>
   import 'vue3-carousel/dist/carousel.css'
-  import { Carousel, Pagination, Slide, Navigation } from 'vue3-carousel'
+  import { Carousel, Slide, Navigation } from 'vue3-carousel'
 
   export default {
     components: {
       Carousel,
       Slide,
-      Pagination,
       Navigation,
     },
 
@@ -50,7 +49,7 @@
   <div class="bg-black/10 mt-24 mb-24">
     <div class="py-10 text-dark font-bold uppercase flex-col items-center text-xl flex justify-center">
       <div class="bg-yellow-400 w-40 md:w-60 h-2 md:h-4 relative"></div>
-      <div class="absolute mb-2 md:mb-4 md:text-lg text-sm">Companies Histories</div>
+      <div class="absolute mb-2 md:mb-4 md:text-lg text-sm">Has Worked With</div>
     </div>
     <div class="pb-5 max-w-full sm:max-w-screen-sm lg:max-w-screen-lg md:max-w-screen-md mx-auto cursor-pointer">
       <Carousel :transition="500" :autoplay="2000" :itemsToShow="4" wrapAround :settings="{ snapAlign: 'center' }">

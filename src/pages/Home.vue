@@ -11,6 +11,3 @@
   <Project :projects="projectCollections" />
   <Company :companies="companyCollections" />
 </template>
-
-<style>
-</style>

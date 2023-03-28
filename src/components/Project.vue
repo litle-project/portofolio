@@ -22,8 +22,8 @@
         }
       },
 
-      handlePage() {
-
+      handleDetail(params) {
+        this.$router.push(`/project/${params}`)
       }
     },
 
@@ -114,6 +114,7 @@
         :key="index.toString()"
         v-on:mouseover="handleLabel(project.name)"
         v-on:mouseleave="handleLabel('')"
+        @click="handleDetail(project.name)"
         class="shadow-lg w-full sm:w-80 md:w-60 flex flex-col rounded-xl pb-3 gap-2 border-t-2 border-neutral-100 h-[300px] md:h-[350px] filter grayscale hover:filter-none cursor-pointer"
       >
         <div class="card-image flex relative flex-1 p-2 border-b-2 md:border-b-4 border-neutral-100">

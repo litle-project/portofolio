@@ -1,9 +1,9 @@
 [
   {
     "name": "Lifespa",
-    "web": "http://lifespafitness.com",
+    "web": "www.lifespafitness.com",
     "image": "lifespa.jpg",
-    "type": "backend",
+    "type": "Backend",
     "tech": [
       "PHP",
       "MYSQL",
@@ -12,9 +12,9 @@
   },
   {
     "name": "Ecocare",
-    "web": "https://ecocare.id/",
+    "web": "www.ecocare.id",
     "image": "ecocare.jpeg",
-    "type": "fullstack",
+    "type": "Fullstack",
     "tech": [
       "PHP",
       "CODEIGNETER",
@@ -26,9 +26,9 @@
   },
   {
     "name": "Masjidku",
-    "web": "https://masjidku.net/",
+    "web": "www.masjidku.net",
     "image": "masjidku.svg",
-    "type": "fullstack",
+    "type": "Fullstack",
     "tech": [
       "PHP",
       "CODEIGNETER",
@@ -40,9 +40,9 @@
   },
   {
     "name": "Refill My Bottle",
-    "web": "https://refillmybottle.com/",
+    "web": "www.refillmybottle.com",
     "image": "refill.png",
-    "type": "fullstack",
+    "type": "Fullstack",
     "tech": [
       "PHP",
       "CODEIGNETER",
@@ -54,9 +54,9 @@
   },
   {
     "name": "Privilegez",
-    "web": "x-one.privilegez.com/",
+    "web": "wwww.x-one.privilegez.com",
     "image": "privilegez.png",
-    "type": "fullstack",
+    "type": "Fullstack",
     "tech": [
       "LARAVEL",
       "MARIADB",
@@ -67,9 +67,9 @@
   },
   {
     "name": "Inkindo",
-    "web": "https://inkindo-dki.org/",
+    "web": "www.inkindo-dki.org",
     "image": "inkindo.png",
-    "type": "fullstack",
+    "type": "Fullstack",
     "tech": [
       "PHP",
       "CODEIGNETER",
@@ -81,9 +81,9 @@
   },
   {
     "name": "Lapaktrip",
-    "web": "https://pesonalokal.com/",
+    "web": "www.pesonalokal.com",
     "image": "lapaktrip.jpeg",
-    "type": "backend",
+    "type": "Backend",
     "tech": [
       "PHP",
       "LARAVEL",
@@ -93,9 +93,9 @@
   },
   {
     "name": "Pesonalokal",
-    "web": "https://pesonalokal.com/",
+    "web": "www.pesonalokal.com",
     "image": "pesonalokal.svg",
-    "type": "backend",
+    "type": "Backend",
     "tech": [
       "PHP",
       "LARAVEL",
@@ -105,9 +105,9 @@
   },
   {
     "name": "Lykos",
-    "web": "https://www.lykos.co/",
+    "web": "www.lykos.co",
     "image": "lykos.png",
-    "type": "backend",
+    "type": "Backend",
     "tech": [
       "LARAVEL",
       "MARIADB"
@@ -115,9 +115,9 @@
   },
   {
     "name": "Stackbuttler",
-    "web": "https://stackbutler.com/",
+    "web": "www.stackbutler.com",
     "image": "stackbutler.svg",
-    "type": "fullstack",
+    "type": "Fullstack",
     "tech": [
       "LARAVEL",
       "VUEJS",
@@ -128,9 +128,9 @@
   },
   {
     "name": "All About Jazz",
-    "web": "https://www.allaboutjazz.com/",
+    "web": "www.allaboutjazz.com",
     "image": "allaboutjazz.svg",
-    "type": "fullstack",
+    "type": "Fullstack",
     "tech": [
       "LARAVEL",
       "JQUERY",
@@ -141,9 +141,9 @@
   },
   {
     "name": "BBTMC-BPPT",
-    "web": "https://www.bppt.go.id/",
+    "web": "www.bppt.go.id",
     "image": "bppt.png",
-    "type": "fullstack",
+    "type": "Fullstack",
     "tech": [
       "LARAVEL",
       "VUEJS",
@@ -154,9 +154,9 @@
   },
   {
     "name": "Gotoko",
-    "web": "https://gotoko.co.id/",
+    "web": "www.gotoko.co.id",
     "image": "gotoko.png",
-    "type": "frontend",
+    "type": "Frontend",
     "tech": [
       "REACTJS",
       "DOCKER",
@@ -166,9 +166,9 @@
   },
   {
     "name": "Jati Tinggi Holding",
-    "web": "https://jatitinggi.com/",
+    "web": "www.jatitinggi.com",
     "image": "jatitinggi.jpg",
-    "type": "fullstack",
+    "type": "Fullstack",
     "tech": [
       "LARAVEL",
       "JQUERY",
@@ -179,9 +179,9 @@
   },
   {
     "name": "Penakita",
-    "web": "https://penakita.id/",
+    "web": "www.penakita.id",
     "image": "penakita.png",
-    "type": "backend",
+    "type": "Backend",
     "tech": [
       "NODEJS",
       "DOCKER",
@@ -191,13 +191,14 @@
   },
   {
     "name": "Alteacare",
-    "web": "https://alteacare.com/",
+    "web": "www.alteacare.com",
     "image": "alteacare.svg",
-    "type": "fullstack",
+    "type": "Fullstack",
     "tech": [
       "NODEJS",
       "REACTJS",
       "NEXTJS",
+      "REDUX",
       "DOCKER",
       "POSTGRESQL",
       "MONGODB",
@@ -206,9 +207,9 @@
   },
   {
     "name": "Sepaket",
-    "web": "https://sepaket.co.id/",
+    "web": "www.sepaket.co.id",
     "image": "sepaket.svg",
-    "type": "backend",
+    "type": "Backend",
     "tech": [
       "NODEJS",
       "DOCKER",
@@ -218,9 +219,9 @@
   },
   {
     "name": "Telkom DBM",
-    "web": "https://www.telkom.co.id/sites",
+    "web": "www.dbm306.id",
     "image": "dbm.png",
-    "type": "backend",
+    "type": "Backend",
     "tech": [
       "LARAVEL",
       "DOCKER",
@@ -230,21 +231,23 @@
   },
   {
     "name": "Binus University",
-    "web": "https://binus.ac.id/",
+    "web": "www.binus.ac.id",
     "image": "binus.png",
-    "type": "frontend",
+    "type": "Frontend",
     "tech": [
       "REACTJS",
+      "REDUX",
       "TAILWIND"
     ]
   },
   {
     "name": "Omsetku",
-    "web": "https://goodeva.co.id/goodeva-omsetku",
+    "web": "www.goodeva.co.id/goodeva-omsetku",
     "image": "omsetku.png",
-    "type": "frontend",
+    "type": "Frontend",
     "tech": [
       "REACTJS",
+      "REDUX",
       "CSS"
     ]
   }

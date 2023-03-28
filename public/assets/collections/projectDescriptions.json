@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Lifespa",
+    "desccription": "Lifespa is Fitness and Spa service industry that located in Jakarta.",
+    "objective": "Maintenance Web CMS",
+    "timeline": "2019-03-01 - 2019-04-01",
+    "code": "<?php \n class CardMemberController extends Controller \n { \n public function print() \n { \n echo 'test' \n } ",
+    "result": "",
+    "tries": {
+      "architecture": "Monolith",
+      "api": [
+        {
+          "method": "post",
+          "path": "/card",
+          "params": "{ member: 1 }"
+        }
+      ]
+    }
+  }
+]
