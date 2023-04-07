@@ -89,10 +89,10 @@
         </ul>
       </div>
       <div v-if="tab.id.toLowerCase() === 'timeline'">
-        <Timeline :timelines="detail.timeline" />
+        <Timeline :timelines="detail?.timeline" />
       </div>
       <div v-if="tab.id.toLowerCase() === 'stack used'">
-        <StackPercentage :stacks="detail.stacks" />
+        <StackPercentage :stacks="detail?.stacks" />
       </div>
     </div>
   </div>

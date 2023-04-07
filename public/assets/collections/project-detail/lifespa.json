@@ -46,19 +46,15 @@
   "stacks": [
     {
       "type": "PHP",
-      "percentage": "60"
-    },
-    {
-      "type": "CSS",
-      "percentage": "15"
+      "percentage": "70"
     },
     {
       "type": "JAVASCRIPT",
-      "percentage": "10"
+      "percentage": "30"
     },
     {
       "type": "MYSQL",
-      "percentage": "30"
+      "percentage": "100"
     }
   ]
 }
