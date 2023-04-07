@@ -24,7 +24,7 @@
   "timeline": [
     {
       "title": "March 2018",
-      "content": "Assigned project to maintenance the website, Learn the existing code about code and flow"
+      "content": "Assigned project to maintenance the website, Learn the existing system about code and flow"
     },
     {
       "title": "April 2018",
@@ -46,19 +46,19 @@
   "stacks": [
     {
       "type": "PHP",
-      "percentage": "80"
+      "percentage": "60"
     },
     {
       "type": "CSS",
-      "percentage": "5"
+      "percentage": "15"
     },
     {
       "type": "JAVASCRIPT",
-      "percentage": "5"
+      "percentage": "10"
     },
     {
       "type": "MYSQL",
-      "percentage": "10"
+      "percentage": "30"
     }
   ]
 }

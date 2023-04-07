@@ -28,13 +28,8 @@
         'What I Do',
         'Timeline',
         'Stack Used',
-        'The Code',
-        'Sample Result',
-        'Try Something'
       ]
 
-      console.log(detailJson[id].timeline)
-      
       return {
         project: selectedCompany,
         detail: detailJson[id],

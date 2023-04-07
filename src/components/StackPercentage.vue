@@ -31,21 +31,21 @@
       };
 
       const stackColor = {
-        PHP: 'bg-sky-700',
+        PHP: 'bg-indigo-400',
         MYSQL: 'bg-sky-300',
-        NGINX: 'nginx.svg',
-        CODEIGNETER: 'codeigniter.svg',
-        NODEJS: 'nodejs.svg',
+        NGINX: 'bg-green-500',
+        CODEIGNETER: 'bg-red-500',
+        NODEJS: 'bg-green-600',
         DOCKER: 'docker.svg',
-        POSTGRESQL: 'postgresql.svg',
-        JQUERY: 'jquery.svg',
+        POSTGRESQL: 'bg-cyan-600',
+        JQUERY: 'bg-sky-600',
         JAVASCRIPT: 'bg-yellow-400',
         TAILWIND: 'tailwind.svg',
-        BOOTSTRAP: 'bootstrap.svg',
+        BOOTSTRAP: 'bg-indigo-600',
         MATERIALUI: 'materialui.svg',
         REACTJS: 'reactjs.svg',
-        REDUX: 'redux.svg',
-        VUEJS: 'vuejs.svg',
+        REDUX: 'bg-indigo-400',
+        VUEJS: 'bg-emerald-500',
         LARAVEL: 'laravel.svg',
         MARIADB: 'mariadb.svg',
         CSS: 'bg-cyan-500',
@@ -65,16 +65,21 @@
   <div
     v-for="(stack, index) in stacks"
     :key="index.toString()"
-    class="flex flex-col py-3"
+    class="flex flex-col py-3 border-b-2 border-neutral-100"
   >
-    <div class="flex flex-row gap-2">
-      <img
-        :alt="stack.type"
-        class="self-center p-2"
-        style="width: 10%; aspect-ratio: 3/2; object-fit: contain;"
-        :src="`/assets/images/stack/${type[stack.type]}`"
-      />
-      <div :class="`${stackColor[stack.type]} w-[${stack.percentage}%] h-4 my-auto rounded-lg`" />
+    <div class="flex flex-row gap-4">
+      <div class="w-24 px-auto flex flex-row justify-center">
+        <img
+          :alt="stack.type"
+          class="self-center px-auto py-auto"
+          :src="`/assets/images/stack/${type[stack.type]}`"
+        />
+      </div>
+      <div class="bg-gray-300 w-full h-5 my-auto mx-auto rounded-lg text-sm lowercase text-center text-white truncate relative">
+        <div :style="`width: ${stack.percentage}%`" :class="`${stackColor[stack.type]} h-5 absolute`">
+          {{ stack.type }}
+        </div>
+      </div>
       <div class="text-sm font-semibold my-auto">{{ stack.percentage }}%</div>
     </div>
   </div>
