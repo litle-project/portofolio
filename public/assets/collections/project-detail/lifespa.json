@@ -1,0 +1,64 @@
+{
+  "name": "Lifespa",
+  "description": {
+    "work": [
+      "Lifespa is Spa and Fitness Service Center that located in Jakarta.",
+      "The system that I maintaned is CMS (Content Management System) of lifespa only. Lifespa just have CMS for managing member and other Inventory"
+    ],
+    "about": [
+      "Lifespa offer a range of office wellness and everyday fitness products, including treadmill desks, bike desks, standing desks, and more. But this didn’t happen overnight.",
+      "When Lifespa started Lifespa Fitness over 20 years ago, Lifespa only had a couple of fitness products and a limited scope.",
+      "It didn’t take long for us to realize that Lifespa needed to offer more than just quality and durability in our treadmills to set us apart.",
+      "Lifespa had to listen and understand our customers’ physical fitness needs on a personal level to truly serve them to the best of our ability. So Lifespa did."
+    ]
+  },
+  "objective": [
+    "Developed and implemented a CMS using PHP native, resulting in a user-friendly and efficient content management system",
+    "Customized PHP code to meet specific client requirements and ensure seamless integration with existing systems and processes",
+    "Utilized PHP's robust and scalable features to create a flexible CMS that can handle large amounts of data and user traffic",
+    "Successfully maintained and improved a website, resulting in stable traffic",
+    "Regularly updated website content, including text, images, and multimedia, to ensure accuracy, relevance, and freshness",
+    "Developed and implemented optimized SQL queries to reduce execution time and improve response time for end-users",
+    "Successfully optimized query speed for a database-driven application, resulting in significant improvements in performance and user experience"
+  ],
+  "timeline": [
+    {
+      "title": "March 2018",
+      "content": "Assigned project to maintenance the website, Learn the existing code about code and flow"
+    },
+    {
+      "title": "April 2018",
+      "content": "Fix general issue about create member, login, and print feature. Fix query speed and improve load time of CMS"
+    },
+    {
+      "title": "April 2018",
+      "content": "Received new bugs, and solve the issue"
+    },
+    {
+      "title": "Mei 2018",
+      "content": "Monitoring the CMS for an updated bug fix"
+    },
+    {
+      "title": "Mei 2018",
+      "content": "Project closed"
+    }
+  ],
+  "stacks": [
+    {
+      "type": "PHP",
+      "percentage": "80"
+    },
+    {
+      "type": "CSS",
+      "percentage": "5"
+    },
+    {
+      "type": "JAVASCRIPT",
+      "percentage": "5"
+    },
+    {
+      "type": "MYSQL",
+      "percentage": "10"
+    }
+  ]
+}

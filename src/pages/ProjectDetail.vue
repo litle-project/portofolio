@@ -1,5 +1,8 @@
 <script setup>
   import projectCollections from '/public/assets/collections/projects.json'
+  import detailJson from '/public/assets/collections/project-detail'
+  import Timeline from '@/components/Timeline.vue'
+  import StackPercentage from '@/components/StackPercentage.vue';
 </script>
 
 <script>
@@ -22,16 +25,19 @@
       const selectedCompany = projectCollections.find((item) => item.name.toLowerCase() === id.toLowerCase())
       const tabs = [
         'Overview',
-        'Objective',
+        'What I Do',
         'Timeline',
         'Stack Used',
         'The Code',
         'Sample Result',
         'Try Something'
       ]
+
+      console.log(detailJson[id].timeline)
       
       return {
         project: selectedCompany,
+        detail: detailJson[id],
         tabs,
         tab: {
           active: true,
@@ -67,7 +73,7 @@
           {{ item }}
         </div>
       </div>
-      <div class="flex flex-col text-sm">
+      <div class="flex flex-col text-sm" v-if="tab.id.toLowerCase() === 'overview'">
         <div class="flex flex-row gap-5">
           <div class="text-slate-500">Worked as :</div>
           <div>{{ project.type }} Engineer</div>
@@ -76,17 +82,22 @@
           <div class="text-slate-500">Main Website :</div>
           <div class="cursor-pointer text-blue-400" @click="handleWeb">{{ project.web }}</div>
         </div>
-        <div class="text-sm pt-4">
-          Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Aut necessitatibus numquam eaque illum asperiores reprehenderit provident minus delectus recusandae exercitationem.
-          Consectetur odio illo sed ullam soluta ratione aut dolores sunt.
-          Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Aut necessitatibus numquam eaque illum asperiores reprehenderit provident minus delectus recusandae exercitationem.
-          Consectetur odio illo sed ullam soluta ratione aut dolores sunt.
-          Lorem ipsum dolor sit amet consectetur,
-          adipisicing elit. Aut necessitatibus numquam eaque illum asperiores reprehenderit provident minus delectus recusandae exercitationem.
-          Consectetur odio illo sed ullam soluta ratione aut dolores sunt.
+        <div class="text-sm pt-4 tracking-wide leading-relaxed">
+          <p v-for="(work, index) in detail?.description?.work" :key="index">{{ work }}</p>
+          <h2 v-if="detail" class="font-bold py-5">About {{ detail?.name }}</h2>
+          <p v-for="(about, index) in detail?.description?.about" :key="index">{{ about }}</p>
         </div>
+      </div>
+      <div v-if="tab.id.toLowerCase() === 'what i do'">
+        <ul class="list-disc text-sm">
+          <li class="pb-1" v-for="(objective, index) in detail?.objective" :key="index">{{ objective }}</li>
+        </ul>
+      </div>
+      <div v-if="tab.id.toLowerCase() === 'timeline'">
+        <Timeline :timelines="detail.timeline" />
+      </div>
+      <div v-if="tab.id.toLowerCase() === 'stack used'">
+        <StackPercentage :stacks="detail.stacks" />
       </div>
     </div>
   </div>
