@@ -1,0 +1,69 @@
+{
+  "name": "Masjidku",
+  "description": {
+    "work": [
+      "Masjidku is an application for find a mosque",
+      "The system that I built is CMS (Content Management System) of Masjidku. Masjidku have CMS with core system Managing Mosque, Holy Verses, Donation and more"
+    ],
+    "about": [
+      "Masjidku is an application developed specifically to meet the administrative and financial needs of mosques in Indonesia.",
+      "Includes management information management, news and activity schedules, zakat calculations, congregation data, financial transactions, cash reports, to fundraising."
+    ]
+  },
+  "objective": [
+    "Maintenance of existing software features, including identifying and resolving issues, implementing updates and improvements, and ensuring continued functionality and user satisfaction",
+    "Integration with Google Maps, allowing for enhanced location-based functionality and mapping capabilities in software applications.",
+    "Development with Codeigniter 3, utilizing the framework to build robust and scalable web applications with clean code and efficient workflows.",
+    "Development with MySQL, leveraging the database management system to build dynamic and responsive applications that effectively store and manage large amounts of data.",
+    "Integration with Firebase, allowing for push notification, for web and mobile applications.",
+    "Application development for finding nearby mosques, utilizing location-based technology and intuitive user interfaces to help users quickly and easily locate mosques and other Islamic prayer spaces in their area."
+  ],
+  "timeline": [
+    {
+      "title": "February 2019",
+      "content": "Assigned project to maintenance, built new feature, improve query and speed of load time, Learn the existing system about code and flow"
+    },
+    {
+      "title": "February 2019",
+      "content": "Fix several bug from list of end user feedback, clean the unreadable code, implement new flow"
+    },
+    {
+      "title": "February 2019",
+      "content": "Integrate Firebase for real-time notification for web and mobile application"
+    },
+    {
+      "title": "March 2019",
+      "content": "Integrate Google Maps API for find mosque"
+    },
+    {
+      "title": "March 2019",
+      "content": "Solving issue of find mosque nearby"
+    }
+  ],
+  "stacks": [
+    {
+      "type": "CODEIGNETER",
+      "percentage": "60"
+    },
+    {
+      "type": "PHP",
+      "percentage": "5"
+    },
+    {
+      "type": "BOOTSTRAP",
+      "percentage": "15"
+    },
+    {
+      "type": "JQUERY",
+      "percentage": "20"
+    },
+    {
+      "type": "MYSQL",
+      "percentage": "100"
+    },
+    {
+      "type": "NGINX",
+      "percentage": "100"
+    }
+  ]
+}

@@ -6,6 +6,7 @@
         required: true
       },
     },
+
     data() {
       const type = {
         PHP: 'php.svg',
@@ -76,7 +77,7 @@
         />
       </div>
       <div class="bg-gray-300 w-full h-5 my-auto mx-auto rounded-lg text-sm lowercase text-center text-white truncate relative">
-        <div :style="`width: ${stack.percentage}%`" :class="`${stackColor[stack.type]} h-5 absolute`">
+        <div :style="`width: ${stack.percentage}%`" :class="`${stackColor[stack.type]} h-5 absolute transition-1 left-0 duration-1000`">
           {{ stack.type }}
         </div>
       </div>

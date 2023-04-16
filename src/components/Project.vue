@@ -23,7 +23,7 @@
       },
 
       handleDetail(params) {
-        this.$router.push(`/project/${params}`)
+        this.$router.push(`/project/${params?.replace(/[' ']*/g, '')?.toLowerCase()}`)
       }
     },
 
@@ -38,8 +38,7 @@
     },
 
     mounted() {
-      const projectProps = this.projects;
-      this.localProjects = projectProps.reverse()
+      
     },
 
     data() {
@@ -73,11 +72,13 @@
         'Fullstack'
       ];
 
+      const projectProps = this.projects;
+
       return {
         type,
         tabs,
         page: 1,
-        localProjects: [],
+        localProjects: projectProps.sort((a, b) => b.id - a.id),
         label: {
           active: false,
           id: '',
