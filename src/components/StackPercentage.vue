@@ -47,8 +47,8 @@
         REACTJS: 'reactjs.svg',
         REDUX: 'bg-indigo-400',
         VUEJS: 'bg-emerald-500',
-        LARAVEL: 'laravel.svg',
-        MARIADB: 'mariadb.svg',
+        LARAVEL: 'bg-red-500',
+        MARIADB: 'bg-blue-800',
         CSS: 'bg-cyan-500',
         MONGODB: 'mongodb.svg',
         NEXTJS: 'nextjs.svg'

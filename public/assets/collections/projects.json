@@ -28,9 +28,9 @@
   },
   {
     "id": 3,
-    "name": "Masjidku",
-    "web": "www.masjidku.net",
-    "image": "masjidku.svg",
+    "name": "Refill My Bottle",
+    "web": "www.refillmybottle.com",
+    "image": "refill.png",
     "type": "Fullstack",
     "tech": [
       "PHP",
@@ -43,9 +43,9 @@
   },
   {
     "id": 4,
-    "name": "Refill My Bottle",
-    "web": "www.refillmybottle.com",
-    "image": "refill.png",
+    "name": "Masjidku",
+    "web": "www.masjidku.net",
+    "image": "masjidku.svg",
     "type": "Fullstack",
     "tech": [
       "PHP",
@@ -87,19 +87,6 @@
   },
   {
     "id": 7,
-    "name": "Lapaktrip",
-    "web": "www.pesonalokal.com",
-    "image": "lapaktrip.jpeg",
-    "type": "Backend",
-    "tech": [
-      "PHP",
-      "LARAVEL",
-      "MARIADB",
-      "NGINX"
-    ]
-  },
-  {
-    "id": 8,
     "name": "Pesonalokal",
     "web": "www.pesonalokal.com",
     "image": "pesonalokal.svg",
@@ -112,7 +99,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "Lykos",
     "web": "www.lykos.co",
     "image": "lykos.png",
@@ -123,7 +110,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 9,
     "name": "Stackbuttler",
     "web": "www.stackbutler.com",
     "image": "stackbutler.svg",
@@ -137,7 +124,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "All About Jazz",
     "web": "www.allaboutjazz.com",
     "image": "allaboutjazz.svg",
@@ -151,7 +138,7 @@
     ]
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "BBTMC-BPPT",
     "web": "www.bppt.go.id",
     "image": "bppt.png",
@@ -165,7 +152,7 @@
     ]
   },
   {
-    "id": 13,
+    "id": 12,
     "name": "Gotoko",
     "web": "www.gotoko.co.id",
     "image": "gotoko.png",
@@ -178,7 +165,7 @@
     ]
   },
   {
-    "id": 14,
+    "id": 13,
     "name": "Jati Tinggi Holding",
     "web": "www.jatitinggi.com",
     "image": "jatitinggi.jpg",
@@ -192,7 +179,7 @@
     ]
   },
   {
-    "id": 15,
+    "id": 14,
     "name": "Penakita",
     "web": "www.penakita.id",
     "image": "penakita.png",
@@ -205,7 +192,7 @@
     ]
   },
   {
-    "id": 16,
+    "id": 15,
     "name": "Alteacare",
     "web": "www.alteacare.com",
     "image": "alteacare.svg",
@@ -222,7 +209,7 @@
     ]
   },
   {
-    "id": 17,
+    "id": 16,
     "name": "Sepaket",
     "web": "www.sepaket.co.id",
     "image": "sepaket.svg",
@@ -235,7 +222,7 @@
     ]
   },
   {
-    "id": 18,
+    "id": 17,
     "name": "Telkom DBM",
     "web": "www.dbm306.id",
     "image": "dbm.png",
@@ -248,7 +235,7 @@
     ]
   },
   {
-    "id": 19,
+    "id": 18,
     "name": "Binus University",
     "web": "www.binus.ac.id",
     "image": "binus.png",
@@ -260,7 +247,7 @@
     ]
   },
   {
-    "id": 20,
+    "id": 19,
     "name": "Omsetku",
     "web": "www.goodeva.co.id/goodeva-omsetku",
     "image": "omsetku.png",
@@ -272,7 +259,7 @@
     ]
   },
   {
-    "id": 21,
+    "id": 20,
     "name": "Aviana Sinar Abadi",
     "web": "https://www.aviana.co.id/",
     "image": "aviana.webp",

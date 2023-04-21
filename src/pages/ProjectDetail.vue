@@ -80,7 +80,12 @@
         <div class="text-sm pt-4 tracking-wide leading-relaxed">
           <p v-for="(work, index) in detail?.description?.work" :key="index">{{ work }}</p>
           <h2 v-if="detail" class="font-bold py-5">About {{ detail?.name }}</h2>
-          <p v-for="(about, index) in detail?.description?.about" :key="index">{{ about }}</p>
+          <span v-if="detail?.description?.about?.length > 0">
+            <p v-for="(about, index) in detail?.description?.about" :key="index">{{ about }}</p>
+          </span>
+          <span v-if="detail?.description?.about?.length < 1">
+            <p>No Information Found...</p>
+          </span>
         </div>
       </div>
       <div v-if="tab.id.toLowerCase() === 'what i do'">
