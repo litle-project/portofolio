@@ -69,7 +69,7 @@
     class="flex flex-col py-3 border-b-2 border-neutral-100"
   >
     <div class="flex flex-row gap-4">
-      <div class="w-24 px-auto flex flex-row justify-center">
+      <div class="w-12 h-12 px-auto flex flex-row justify-center">
         <img
           :alt="stack.type"
           class="self-center px-auto py-auto"
