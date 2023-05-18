@@ -37,13 +37,13 @@
         NGINX: 'bg-green-500',
         CODEIGNETER: 'bg-red-500',
         NODEJS: 'bg-green-600',
-        DOCKER: 'docker.svg',
+        DOCKER: 'bg-cyan-700',
         POSTGRESQL: 'bg-cyan-600',
         JQUERY: 'bg-sky-600',
         JAVASCRIPT: 'bg-yellow-400',
         TAILWIND: 'tailwind.svg',
         BOOTSTRAP: 'bg-indigo-600',
-        MATERIALUI: 'materialui.svg',
+        MATERIALUI: 'bg-sky-500',
         REACTJS: 'reactjs.svg',
         REDUX: 'bg-indigo-400',
         VUEJS: 'bg-emerald-500',
@@ -51,7 +51,7 @@
         MARIADB: 'bg-blue-800',
         CSS: 'bg-cyan-500',
         MONGODB: 'mongodb.svg',
-        NEXTJS: 'nextjs.svg'
+        NEXTJS: 'bg-neutral-800'
       }
 
       return {

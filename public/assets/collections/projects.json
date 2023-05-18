@@ -117,7 +117,7 @@
     "type": "Fullstack",
     "tech": [
       "LARAVEL",
-      "VUEJS",
+      "JQUERY",
       "NGINX",
       "BOOTSTRAP",
       "MARIADB"
@@ -139,7 +139,7 @@
   },
   {
     "id": 11,
-    "name": "BBTMC-BPPT",
+    "name": "BPPT",
     "web": "www.bppt.go.id",
     "image": "bppt.png",
     "type": "Fullstack",
@@ -158,7 +158,7 @@
     "image": "gotoko.png",
     "type": "Frontend",
     "tech": [
-      "REACTJS",
+      "NEXTJS",
       "DOCKER",
       "REDUX",
       "TAILWIND"

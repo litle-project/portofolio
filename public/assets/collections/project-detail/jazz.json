@@ -1,0 +1,65 @@
+{
+  "name": "All About Jazz",
+  "description": {
+    "work": [
+      "All About Jazz is website for jazz music article, jazz concert, jazz artist",
+      "The system that I built is Restfull API, Database design, and Web frontend. All About Jazz have core system Managing concert, Managing artist, article, and meet artist"
+    ],
+    "about": [
+      "All About Jazz is a multifaceted platform that supports both jazz enthusiasts and industry professionals.",
+      "If you're a fan, sit back, relax and enjoy our website. If you are a professional, learn how All About Jazz & Jazz Near You can work for you."
+    ]
+  },
+  "objective": [
+    "Transition from native PHP to Laravel framework to leverage its powerful features and development capabilities.",
+    "Develop the application using Laravel, ensuring adherence to best practices and utilizing its rich ecosystem of libraries and tools.",
+    "Utilize MySQL as the database management system to store and manage data efficiently.",
+    "Implement SEO optimization techniques to improve the visibility and ranking of the web application in search engine results.",
+    "Create a user-friendly interface and design that aligns with the target audience and provides an intuitive browsing experience.",
+    "Gather and update news and event information related to jazz music to keep users informed about the latest happenings.",
+    "Implement features to allow users to search and filter news and events based on various criteria, such as date, location, artists, etc.",
+    "Provide seamless integration with social media platforms to allow users to share news and events easily.",
+    "Incorporate a responsive design that ensures the application is accessible and performs well across different devices and screen sizes.",
+    "UtiImplement user authentication and authorization mechanisms to secure sensitive data and provide personalized experiences for registered users.",
+    "Enable email notifications and subscriptions for users to receive updates about their favorite jazz music events and news.",
+    "Implement a commenting system to foster engagement and allow users to discuss and share their thoughts on news and events.",
+    "Optimize the application's performance to ensure fast loading times and smooth navigation.",
+    "Regularly update and maintain the application to fix bugs, improve performance, and add new features based on user feedback and evolving requirements."
+  ],
+  "timeline": [
+    {
+      "title": "August 2020",
+      "content": "Meet renew system version of Laravel, convert to new architecture"
+    },
+    {
+      "title": "September 2020",
+      "content": "Converting all flow from native PHP into laravel, Implement new SEO into new system"
+    },
+    {
+      "title": "October 2020",
+      "content": "UAT, Project Done"
+    }
+  ],
+  "stacks": [
+    {
+      "type": "LARAVEL",
+      "percentage": "50"
+    },
+    {
+      "type": "JQUERY",
+      "percentage": "20"
+    },
+    {
+      "type": "PHP",
+      "percentage": "10"
+    },
+    {
+      "type": "BOOTSTRAP",
+      "percentage": "20"
+    },
+    {
+      "type": "NGINX",
+      "percentage": "100"
+    }
+  ]
+}
