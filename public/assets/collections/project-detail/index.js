@@ -10,7 +10,10 @@ import stackbuttler from './stackbuttler.json';
 import jazz from './jazz.json';
 import bppt from './bppt.json';
 import gotoko from './gotoko.json';
-
+import jtkms from './jtkms.json';
+import penakita from './penakita.json';
+import alteacare from './alteacare.json';
+import sepaket from './sepaket.json';
 
 const json = {
   lifespa: lifespa,
@@ -25,6 +28,10 @@ const json = {
   allaboutjazz: jazz,
   bppt: bppt,
   gotoko: gotoko,
+  jatitinggiholding: jtkms,
+  penakita: penakita,
+  alteacare: alteacare,
+  sepaket: sepaket,
 }
 
 export default json;

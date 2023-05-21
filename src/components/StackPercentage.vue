@@ -41,16 +41,16 @@
         POSTGRESQL: 'bg-cyan-600',
         JQUERY: 'bg-sky-600',
         JAVASCRIPT: 'bg-yellow-400',
-        TAILWIND: 'tailwind.svg',
+        TAILWIND: 'bg-cyan-600',
         BOOTSTRAP: 'bg-indigo-600',
         MATERIALUI: 'bg-sky-500',
-        REACTJS: 'reactjs.svg',
+        REACTJS: 'bg-sky-300',
         REDUX: 'bg-indigo-400',
         VUEJS: 'bg-emerald-500',
         LARAVEL: 'bg-red-500',
         MARIADB: 'bg-blue-800',
         CSS: 'bg-cyan-500',
-        MONGODB: 'mongodb.svg',
+        MONGODB: 'bg-emerald-600',
         NEXTJS: 'bg-neutral-800'
       }
 
