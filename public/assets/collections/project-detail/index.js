@@ -14,6 +14,8 @@ import jtkms from './jtkms.json';
 import penakita from './penakita.json';
 import alteacare from './alteacare.json';
 import sepaket from './sepaket.json';
+import dbm from './dbm.json';
+import binus from './binus.json';
 
 const json = {
   lifespa: lifespa,
@@ -32,6 +34,8 @@ const json = {
   penakita: penakita,
   alteacare: alteacare,
   sepaket: sepaket,
+  telkomdbm: dbm,
+  binusuniversity: binus,
 }
 
 export default json;
