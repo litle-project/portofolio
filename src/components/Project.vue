@@ -118,8 +118,8 @@
         @click="handleDetail(project.name)"
         class="shadow-lg w-full sm:w-80 md:w-60 flex flex-col rounded-xl pb-3 gap-2 border-t-2 border-neutral-100 h-[300px] md:h-[350px] filter grayscale hover:filter-none cursor-pointer"
       >
-        <div class="card-image flex relative flex-1 p-2 border-b-2 md:border-b-4 border-neutral-100">
-          <img class="self-center w-full p-2 sm:p-3" :src="`/assets/images/logo/${project.image}`" :alt="project.name" />
+        <div class="card-image flex relative flex-1 p-1 border-b-2 md:border-b-4 border-neutral-100">
+          <img class="self-center w-full p-1 sm:p-3" :src="`/assets/images/logo/${project.image}`" :alt="project.name" />
         </div>
         <div
           v-if="label.active && label.id === project.name"

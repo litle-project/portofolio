@@ -41,10 +41,14 @@
     "stacks": [
       {
         "type": "REACTJS",
-        "percentage": "90"
+        "percentage": "80"
       },
       {
         "type": "REDUX",
+        "percentage": "10"
+      },
+      {
+        "type": "CSS",
         "percentage": "10"
       }
     ]

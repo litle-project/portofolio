@@ -269,5 +269,19 @@
       "REDUX",
       "TAILWIND"
     ]
+  },
+  {
+    "id": 21,
+    "name": "PT. Pamapersada Nusantara",
+    "web": "https://pamapersada.com/",
+    "image": "pamapersada.png",
+    "type": "Fullstack",
+    "tech": [
+      "LARAVEL",
+      "POSTGRESQL",
+      "DOCKER",
+      "NGINX",
+      "BOOTSTRAP"
+    ]
   }
 ]

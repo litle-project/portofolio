@@ -17,6 +17,7 @@ import sepaket from './sepaket.json';
 import dbm from './dbm.json';
 import binus from './binus.json';
 import omsetku from './omsetku.json';
+import aviana from './aviana.json';
 
 const json = {
   lifespa: lifespa,
@@ -38,6 +39,7 @@ const json = {
   telkomdbm: dbm,
   binusuniversity: binus,
   omsetku: omsetku,
+  avianasinarabadi: aviana,
 }
 
 export default json;
