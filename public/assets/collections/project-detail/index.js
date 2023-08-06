@@ -16,6 +16,7 @@ import alteacare from './alteacare.json';
 import sepaket from './sepaket.json';
 import dbm from './dbm.json';
 import binus from './binus.json';
+import omsetku from './omsetku.json';
 
 const json = {
   lifespa: lifespa,
@@ -36,6 +37,7 @@ const json = {
   sepaket: sepaket,
   telkomdbm: dbm,
   binusuniversity: binus,
+  omsetku: omsetku,
 }
 
 export default json;

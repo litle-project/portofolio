@@ -1,0 +1,51 @@
+{
+    "name": "Omsetku",
+    "description": {
+      "work": [
+        "Omsetku is POS application, it developed for Goodeva Technology",
+        "The system that I built is mobile apps for iOS, Omsetku have core system Sales Automation, Sales Report, and All About Sales Feature"
+      ],
+      "about": [
+        "Omsetku helps SME business increase their sales performance by adopting AI to drive sales growth and cost savings."
+      ]
+    },
+    "objective": [
+      "Created mobile applications using React Native CLI, leveraging its cross-platform capabilities for efficient app development.",
+      "Developed iOS functionality, ensuring seamless and optimized user experiences on Apple devices.",
+      "Implemented Redux for state management, enabling efficient data flow and consistent application state across components.",
+      "Integrated with APIs, enabling data retrieval and interaction with external services.",
+      "Developed user interfaces with native CSS, ensuring responsive and visually appealing designs.",
+      "Created applications from scratch, demonstrating proficiency in the entire app development lifecycle, from concept to deployment.",
+      "Conducted thorough testing and debugging to ensure the functionality, performance, and usability of the mobile applications.",
+      "Collaborated closely with designers and back-end developers to ensure seamless integration and deliver cohesive solutions.",
+      "Followed best practices in React Native development, including code organization, separation of concerns, and adherence to coding standards."
+    ],
+    "timeline": [
+      {
+        "title": "January 2023",
+        "content": "Project introduction, learn existing flow, layouting"
+      },
+      {
+        "title": "February 2023",
+        "content": "Update layout from Goodeva"
+      },
+      {
+        "title": "March 2023",
+        "content": "Connect API, integrate login social media"
+      },
+      {
+        "title": "April 2023",
+        "content": "UAT, Project Done"
+      }
+    ],
+    "stacks": [
+      {
+        "type": "REACTJS",
+        "percentage": "90"
+      },
+      {
+        "type": "REDUX",
+        "percentage": "10"
+      }
+    ]
+  }
