@@ -28,7 +28,8 @@
         MARIADB: 'mariadb.svg',
         CSS: 'css.png',
         MONGODB: 'mongodb.svg',
-        NEXTJS: 'nextjs.svg'
+        NEXTJS: 'nextjs.svg',
+        REACT_QUERY: 'react-query.png'
       };
 
       const stackColor = {
@@ -51,7 +52,8 @@
         MARIADB: 'bg-blue-800',
         CSS: 'bg-cyan-500',
         MONGODB: 'bg-emerald-600',
-        NEXTJS: 'bg-neutral-800'
+        NEXTJS: 'bg-neutral-800',
+        REACT_QUERY: 'bg-red-500'
       }
 
       return {

@@ -7,7 +7,7 @@ import { RouterLink } from 'vue-router'
     data() {
       const menus = [
         { id: 1, text: 'Home', url: '/', active: false },
-        { id: 2, text: 'Article', url: '/article', active: false },
+        // { id: 2, text: 'Article', url: '/article', active: false },
         { id: 3, text: 'Project', url: '/project', active: false },
         { id: 4, text: 'Skill', url: '/skill', active: false },
         { id: 5, text: 'Contact', url: '/contact', active: false },

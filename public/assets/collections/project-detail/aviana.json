@@ -38,7 +38,7 @@
     "stacks": [
       {
         "type": "NEXTJS",
-        "percentage": "75"
+        "percentage": "65"
       },
       {
         "type": "REDUX",
@@ -46,6 +46,10 @@
       },
       {
         "type": "CSS",
+        "percentage": "10"
+      },
+      {
+        "type": "REACT_QUERY",
         "percentage": "20"
       }
     ]

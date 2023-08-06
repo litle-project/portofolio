@@ -18,6 +18,7 @@ import dbm from './dbm.json';
 import binus from './binus.json';
 import omsetku from './omsetku.json';
 import aviana from './aviana.json';
+import pamapersada from './pamapersada.json';
 
 const json = {
   lifespa: lifespa,
@@ -40,6 +41,7 @@ const json = {
   binusuniversity: binus,
   omsetku: omsetku,
   avianasinarabadi: aviana,
+  pamapersadanusantara: pamapersada
 }
 
 export default json;

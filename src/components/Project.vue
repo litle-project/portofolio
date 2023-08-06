@@ -62,7 +62,8 @@
         MARIADB: 'mariadb.svg',
         CSS: 'css.png',
         MONGODB: 'mongodb.svg',
-        NEXTJS: 'nextjs.svg'
+        NEXTJS: 'nextjs.svg',
+        REACT_QUERY: 'react-query.png'
       };
 
       const tabs = [

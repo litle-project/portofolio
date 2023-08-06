@@ -267,12 +267,13 @@
     "tech": [
       "NEXTJS",
       "REDUX",
-      "TAILWIND"
+      "TAILWIND",
+      "REACT_QUERY"
     ]
   },
   {
     "id": 21,
-    "name": "PT. Pamapersada Nusantara",
+    "name": "Pamapersada Nusantara",
     "web": "https://pamapersada.com/",
     "image": "pamapersada.png",
     "type": "Fullstack",
