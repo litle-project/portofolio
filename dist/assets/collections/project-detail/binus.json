@@ -1,0 +1,49 @@
+{
+  "name": "Binus Student Learning",
+  "description": {
+    "work": [
+      "Binus Student Learning is platform for Mentor and Mentee to learning under Binus University",
+      "The system that I built is Dashboard Learning Center, Binus Student Learning have core system Create an Class/Sharing, Trace an Student Performance and/or trace Lecture Performance"
+    ],
+    "about": []
+  },
+  "objective": [
+    "Created applications using React.js, leveraging its component-based architecture and virtual DOM for building dynamic and interactive user interfaces.",
+    "Styled web applications using Tailwind CSS and native CSS, implementing responsive designs and ensuring visually appealing user experiences.",
+    "Implemented state management using React Redux, facilitating efficient data flow and ensuring consistent application state across components.",
+    "Utilized component-based architecture in React.js, breaking down the user interface into reusable and modular components for improved maintainability and scalability.",
+    "Integrated with the Binus University API, enabling data retrieval and interaction with the university's systems and resources."
+  ],
+  "timeline": [
+    {
+      "title": "January 2023",
+      "content": "Meeting about system will develop, learning the existing code"
+    },
+    {
+      "title": "January 2023",
+      "content": "Create general module, create quiz module, create custom question for quiz module"
+    },
+    {
+      "title": "February 2023",
+      "content": "Create rank student module, fix several bug on student module"
+    },
+    {
+      "title": "February 2023",
+      "content": "Integrate with google and microsoft for authenticate student login"
+    },
+    {
+      "title": "March 2023",
+      "content": "UAT, Bug Fix, Project Done"
+    }
+  ],
+  "stacks": [
+    {
+      "type": "REACTJS",
+      "percentage": "90"
+    },
+    {
+      "type": "REDUX",
+      "percentage": "10"
+    }
+  ]
+}
