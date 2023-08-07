@@ -94,7 +94,7 @@
 </script>
 
 <template>
-  <div class="pt-10 pb-5 text-dark font-bold uppercase flex-col items-center text-xl flex justify-center">
+  <div class="pt-10 pb-5 text-dark font-bold uppercase flex-col items-center text-xl flex justify-center" id="project">
     <div class="bg-yellow-400 w-40 md:w-60 h-2 md:h-4 relative"></div>
     <div class="absolute mb-2 md:mb-4 md:text-lg text-sm">Project Histories</div>
   </div>

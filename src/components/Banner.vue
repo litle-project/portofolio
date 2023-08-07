@@ -1,5 +1,5 @@
 <template>
-  <div class="banner-content border-b-2">
+  <div class="banner-content border-b-2" id="home">
     <div class="w-2/3 mx-auto pt-20 items-center flex flex-wrap">
       <div class="md:w-1/2 w-full md:order-first order-last flex flex-col gap-8">
         <div class="flex flex-col gap-4">

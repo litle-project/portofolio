@@ -1,22 +1,25 @@
-<script setup>
-import { RouterLink } from 'vue-router'
-</script>
-
 <script>
   export default {
+    methods: {
+      redirect(id) {
+        const component = document.querySelector(id)
+        component.scrollIntoView({ behavior: 'smooth' })
+      },
+    },
+    
     data() {
       const menus = [
-        { id: 1, text: 'Home', url: '/', active: false },
+        { id: 1, text: 'Home', url: '#home', active: false },
         // { id: 2, text: 'Article', url: '/article', active: false },
-        { id: 3, text: 'Project', url: '/project', active: false },
-        { id: 4, text: 'Skill', url: '/skill', active: false },
-        { id: 5, text: 'Contact', url: '/contact', active: false },
+        { id: 3, text: 'Project', url: '#project', active: false },
+        { id: 4, text: 'Skill', url: '#skill', active: false },
+        { id: 5, text: 'Contact', url: '#contact', active: false },
       ];
 
       return {
         menus,
       }
-    },
+    }
   }
 </script>
 
@@ -51,8 +54,8 @@ import { RouterLink } from 'vue-router'
             dark:border-gray-700"
         >
           <li v-for="(menu, index) in menus" :key="index.toString()">
-            <RouterLink
-              :to="menu.url"
+            <div
+              @click="redirect(menu.url)"
               class="{{ menu.active ? 'text-yellow-400' : 'text-gray-700' }}
                 rounded hover:bg-gray-100
                 block py-2 pl-3 pr-4 cursor-pointer
@@ -63,7 +66,7 @@ import { RouterLink } from 'vue-router'
                 md:dark:hover:bg-transparent"
             >
               {{ menu.text }}
-            </RouterLink>
+            </div>
           </li>
         </ul>
       </div>

@@ -29,7 +29,9 @@
         CSS: 'css.png',
         MONGODB: 'mongodb.svg',
         NEXTJS: 'nextjs.svg',
-        REACT_QUERY: 'react-query.png'
+        REACT_QUERY: 'react-query.png',
+        TYPESCRIPT: 'typescript.svg',
+        RAILS: 'rails.svg'
       };
 
       const stackColor = {
@@ -53,7 +55,9 @@
         CSS: 'bg-cyan-500',
         MONGODB: 'bg-emerald-600',
         NEXTJS: 'bg-neutral-800',
-        REACT_QUERY: 'bg-red-500'
+        REACT_QUERY: 'bg-red-500',
+        TYPESCRIPT: 'bg-sky-600',
+        RAILS: 'bg-red-800'
       }
 
       return {
