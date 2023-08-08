@@ -7,7 +7,7 @@
           <p class="md:text-5xl text-xl font-semibold flex text-left">Muhammad Ilham Pratama</p>
           <p class="text-slate-500 md:text-sm text-xs md:items-start flex md:text-left text-center">
             I'm Profesional Developer with 6 years experience with 20+ Digital Project and Programming Language Tech Stack.<br>
-            If you have a great project that needs some amazing skills, I'm your guy.
+            If you have a great project that needs some amazing skills, I'm your guy!.
           </p>
         </div>
         <div class="action flex flex-row md:gap-10 gap-5 md:mx-0 mx-auto mb-5">
