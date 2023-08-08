@@ -6,12 +6,18 @@
           <p class="text-md uppercase font-semibold text-left">Hello I'm<span class="text-yellow-400">&nbsp; Fullstack Engineer</span></p>
           <p class="md:text-5xl text-xl font-semibold flex text-left">Muhammad Ilham Pratama</p>
           <p class="text-slate-500 md:text-sm text-xs md:items-start flex md:text-left text-center">
-            I love to learn new technologies to build some app or website, also love to coding with clean code. Do magic with code!<br>
-            Currently I was learn about Ruby on Rails, rich and stable language.
+            I'm Profesional Developer with 6 years experience with 20+ Digital Project and Programming Language Tech Stack.<br>
+            If you have a great project that neeas some amazing skills, I'm your guy.
           </p>
         </div>
         <div class="action flex flex-row md:gap-10 gap-5 md:mx-0 mx-auto mb-5">
-          <button type="button" class="text-currently bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full md:text-sm text-xs px-5 py-2.5 text-center dark:focus:ring-yellow-900" onclick="alert('click')">Hire me</button>
+          <a
+            href="https://wa.me/+6283871028000"
+            target="_blank"
+            class="text-currently bg-yellow-400 hover:bg-yellow-500 focus:outline-none focus:ring-4 focus:ring-yellow-300 font-medium rounded-full md:text-sm text-xs px-5 py-2.5 text-center dark:focus:ring-yellow-900"
+          >
+            Hire me
+          </a>
           <button class="text-yellow-400 md:text-sm text-xs download" type="button">Download Resume</button>
         </div>
       </div>

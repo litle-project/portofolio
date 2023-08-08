@@ -110,17 +110,17 @@
         {{ item }}
       </div>
     </div>
-    <div class="mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 md:gap-7">
+    <div class="mx-auto grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-5 md:gap-7">
       <div
         v-for="(project, index) in localProjects"
         :key="index.toString()"
         v-on:mouseover="handleLabel(project.name)"
         v-on:mouseleave="handleLabel('')"
         @click="handleDetail(project.name)"
-        class="shadow-lg w-48 sm:w-80 md:w-60 flex flex-col rounded-xl pb-3 gap-2 border-t-2 border-neutral-100 h-[200px] md:h-[350px] filter grayscale hover:filter-none cursor-pointer"
+        class="shadow-lg w-32 sm:w-80 md:w-60 flex flex-col rounded-xl pb-3 gap-2 border-t-2 border-neutral-100 h-[150px] md:h-[350px] filter grayscale hover:filter-none cursor-pointer"
       >
         <div class="card-image flex relative flex-1 p-1 border-b-2 md:border-b-4 border-neutral-100">
-          <img class="mx-auto self-center w-6/12 md:w-full p-1 sm:p-3" :src="`./assets/images/logo/${project.image}`" :alt="project.name" />
+          <img class="mx-auto self-center w-8/12 md:w-full p-1 sm:p-3" :src="`./assets/images/logo/${project.image}`" :alt="project.name" />
         </div>
         <div
           v-if="label.active && label.id === project.name"
@@ -133,7 +133,7 @@
             <img
               v-for="(tech, idx) in project.tech"
               :alt="tech"
-              :class="`md:w-[30px] w-[20px]`"
+              :class="`md:w-[30px] w-[15px]`"
               :key="idx.toString()"
               :src="`./assets/images/stack/${type[tech]}`"
             />
