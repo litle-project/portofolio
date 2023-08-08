@@ -1,0 +1,55 @@
+{
+  "name": "Lykos",
+  "description": {
+    "work": [
+      "Lykos is talent acquisition platform for FnB (Food and Beverage)",
+      "The system that I built is Restfull API. Lykos have core system Managing Candidate, Manage Client, Video confrence for candidate to HR, Managing Question (Intgrate with cangrade.com), and more about talent acquisition"
+    ],
+    "about": [
+      "Lykos was established in 2019 in Dubai by a team of seasoned professionals who were obsessed with speed and accuracy.",
+      "They had personally grappled with the complex talent acquisition challenges inherent in running award-winning multi-million dollar businesses.",
+      "These businesses faced unique combinations of challenges such as enhancing the candidate experience, ensuring customer service excellence, managing high employee turnover, and effectively strategizing talent management to build a sustainable competitive advantage."
+    ]
+  },
+  "objective": [
+    "Laravel Development: Demonstrate my proficiency in building web applications using the Laravel framework, highlighting the use of industry best practices and efficient coding techniques.",
+    "MariaDB Development: Exhibit my skills in database design, management, and optimization using MariaDB, showcasing my ability to create robust and scalable solutions.",
+    "Redis Cache Development: Illustrate my knowledge of implementing caching strategies using Redis, emphasizing the performance improvements achieved through efficient data caching.",
+    "Integration with Automated Assessment (cangrade.com): Highlight my ability to integrate web applications with third-party systems such as Cangrade.com, showcasing seamless data exchange and synchronization.",
+    "Google Maps Integration: Demonstrate my capability to incorporate Google Maps into web applications, showcasing the integration of geolocation services, mapping functionalities, and route optimization.",
+    "Integration with Ìrebase Application: Showcase my experience in integrating with firebase, emphasizing my ability to leverage its features and functionalities to enhance applicant and talent management processes.",
+    "Applicant and Talent Management: Display my proficiency in developing web applications that streamline applicant tracking, talent acquisition, and management processes, emphasizing user-friendly interfaces and efficient workflows."
+  ],
+  "timeline": [
+    {
+      "title": "March 2020",
+      "content": "Gathering requirements, Stack decision, task breakdown, UI/UX processing"
+    },
+    {
+      "title": "April 2020",
+      "content": "Start development, Create API contract, Designing Database"
+    },
+    {
+      "title": "May 2020",
+      "content": "Integration 3rd party (google maps, firebase & cangrade.com)"
+    },
+    {
+      "title": "June 2020",
+      "content": "Integrate payment system (midtrans)"
+    },
+    {
+      "title": "July 2020",
+      "content": "UAT, Publishing application, Project Done"
+    }
+  ],
+  "stacks": [
+    {
+      "type": "LARAVEL",
+      "percentage": "100"
+    },
+    {
+      "type": "MARIADB",
+      "percentage": "100"
+    }
+  ]
+}
