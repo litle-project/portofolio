@@ -79,7 +79,7 @@
         <img
           :alt="stack.type"
           class="self-center px-auto py-auto"
-          :src="`/assets/images/stack/${type[stack.type]}`"
+          :src="`./assets/images/stack/${type[stack.type]}`"
         />
       </div>
       <div class="bg-gray-300 w-full h-5 my-auto mx-auto rounded-lg text-sm lowercase text-center text-white truncate relative">

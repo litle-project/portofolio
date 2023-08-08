@@ -55,7 +55,7 @@
       <Carousel :transition="500" :autoplay="2000" :itemsToShow="4" wrapAround :settings="{ snapAlign: 'center' }">
         <Slide v-for="(company, index) in localCompanies" :key="index.toString()" class="mb-10 flex flex-col">
           <div class="flex justify-center md:w-48 w-full" @click="handleClick(company.web)">
-            <img class="self-center w-full" :src="`/assets/images/companies/${company.image}`" :alt="company.name" />
+            <img class="self-center w-full" :src="`./assets/images/companies/${company.image}`" :alt="company.name" />
           </div>
         </Slide>
         <template #addons>
