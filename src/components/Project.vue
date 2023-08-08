@@ -98,12 +98,12 @@
     <div class="bg-yellow-400 w-40 md:w-60 h-2 md:h-4 relative"></div>
     <div class="absolute mb-2 md:mb-4 md:text-lg text-sm">Project Histories</div>
   </div>
-  <div class="projects flex flex-col gap-5 md:gap-7 mb-5">
+  <div class="projects flex flex-col gap-5 md:gap-7 md:mb-5 mb-2">
     <div class="flex justify-center gap-5 md:gap-10 py-3 md:py-5 text-slate-500 font-semibold" id="tab-nav">
       <div
         v-for="(item, index) in tabs"
         :key="index.toString()"
-        class="cursor-pointer"
+        class="cursor-pointer md:text-sm text-xs"
         :class="{ 'border-b-2 md:border-b-4 border-yellow-400': tab.active && (tab.id === item) }"
         @click="handleTab(item)"
       >
@@ -117,10 +117,10 @@
         v-on:mouseover="handleLabel(project.name)"
         v-on:mouseleave="handleLabel('')"
         @click="handleDetail(project.name)"
-        class="shadow-lg w-full sm:w-80 md:w-60 flex flex-col rounded-xl pb-3 gap-2 border-t-2 border-neutral-100 h-[300px] md:h-[350px] filter grayscale hover:filter-none cursor-pointer"
+        class="shadow-lg w-48 sm:w-80 md:w-60 flex flex-col rounded-xl pb-3 gap-2 border-t-2 border-neutral-100 h-[200px] md:h-[350px] filter grayscale hover:filter-none cursor-pointer"
       >
         <div class="card-image flex relative flex-1 p-1 border-b-2 md:border-b-4 border-neutral-100">
-          <img class="self-center w-full p-1 sm:p-3" :src="`./assets/images/logo/${project.image}`" :alt="project.name" />
+          <img class="mx-auto self-center w-6/12 md:w-full p-1 sm:p-3" :src="`./assets/images/logo/${project.image}`" :alt="project.name" />
         </div>
         <div
           v-if="label.active && label.id === project.name"
@@ -133,7 +133,7 @@
             <img
               v-for="(tech, idx) in project.tech"
               :alt="tech"
-              :width="30"
+              :class="`md:w-[30px] w-[20px]`"
               :key="idx.toString()"
               :src="`./assets/images/stack/${type[tech]}`"
             />

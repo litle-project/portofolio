@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-yellow-500 flex justify-around px-40 py-10" id="contact">
-        <div class="text-white flex flex-col gap-5 pr-30">
+    <div class="bg-yellow-500 flex justify-around md:px-40 py-10 md:flex-row flex-col md:gap-0 gap-10" id="contact">
+        <div class="text-white flex flex-col gap-5 md:text-left text-center pr-30">
             <div class="text-2xl font-bold">Personal Portofolio</div>
             <div class="text-sm">
                 This Portfolio made with ❤️ also this created to make you knowing me more and <br>
@@ -15,7 +15,7 @@
                 See you on the project.
             </div>
         </div>
-        <div class="flex flex-row gap-24">
+        <div class="flex md:flex-row flex-col md:gap-24 gap-5 items-center">
             <div class="text-white flex flex-col gap-2">
                 <div class="text-md font-bold text-left pb-2">Social Media</div>
                 <div class="text-md flex gap-2 filter grayscale hover:filter-none">

@@ -40,7 +40,7 @@
     <div class="bg-yellow-400 w-40 md:w-60 h-2 md:h-4 relative"></div>
     <div class="absolute mb-2 md:mb-4 md:text-lg text-sm">Skill & Tech Stack</div>
   </div>
-  <div class="bg-white flex px-80 gap-x-36 pb-10">
+  <div class="bg-white flex md:flex-row flex-col md:px-80 px-6 md:gap-x-36 gap-x-10 pb-10">
     <div class="w-full">
       <StackPercentage :stacks="this.stackLefts" />
     </div>
