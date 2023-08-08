@@ -30,7 +30,7 @@
                 </div>
                 <div class="text-md flex gap-2 filter grayscale hover:filter-none">
                     <img class="self-center w-5" :src="`./assets/images/site/github.png`" />
-                    <span>@litle.project@gmail.com</span>
+                    <span>@litle.project</span>
                 </div>
                 <div class="text-md flex gap-2 filter grayscale hover:filter-none">
                     <img class="self-center w-5" :src="`./assets/images/site/instagram.png`" />
