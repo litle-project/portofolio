@@ -1,0 +1,63 @@
+{
+  "name": "Inkindo",
+  "description": {
+    "work": [
+      "Inkindo is an application for consultation development, I've built the system only for DKI Jakarta Region",
+      "The system that I built is CMS (Content Management System) of Inkindo and Restfull API. Inkindo have core Contract Management, Business Linceses (SIUP) Management, Document Validation Management, and more"
+    ],
+    "about": [
+      "INKINDO (National Association of Indonesian Consultants) is an association of independent consulting firms founded on June 29, 1979, as a result of the fusion between IKINDO (Indonesian Association of Consultants) and PKTPI (Association of Indonesian Development Engineering Consultants).",
+      "INKINDO members are spread across 33 provinces throughout Indonesia and have a total of 7,000 consulting firm members."
+    ]
+  },
+  "objective": [
+    "Development with Codeigniter 3, utilizing the framework to build robust and scalable web applications with clean code and efficient workflows.",
+    "Development with MySQL, leveraging the database management system to build dynamic and responsive applications that effectively store and manage large amounts of data.",
+    "Maintenance of existing software features, including identifying and resolving issues, implementing updates and improvements, and ensuring continued functionality and user satisfaction.",
+    "Creation of new features such as user registration and document validation, implementing intuitive and user-friendly interfaces and workflows to enhance the functionality and user experience of web applications."
+  ],
+  "timeline": [
+    {
+      "title": "March 2019",
+      "content": "Meet about system will build, Code and flow has been exist, Task Feature Breakdown"
+    },
+    {
+      "title": "March 2019",
+      "content": "Learn the code, Starting development for new feature (Document Validation Feature), Modeling database table for new feature"
+    },
+    {
+      "title": "April 2019",
+      "content": "E2E testing, Flow testing, UAT"
+    },
+    {
+      "title": "April 2019",
+      "content": "Project Finished"
+    }
+  ],
+  "stacks": [
+    {
+      "type": "CODEIGNETER",
+      "percentage": "60"
+    },
+    {
+      "type": "PHP",
+      "percentage": "5"
+    },
+    {
+      "type": "BOOTSTRAP",
+      "percentage": "15"
+    },
+    {
+      "type": "JQUERY",
+      "percentage": "20"
+    },
+    {
+      "type": "MYSQL",
+      "percentage": "100"
+    },
+    {
+      "type": "NGINX",
+      "percentage": "100"
+    }
+  ]
+}
