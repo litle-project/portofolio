@@ -1,9 +1,11 @@
-<script setup>
-  import StackPercentage from '@/components/StackPercentage.vue';
-</script>
-
 <script>
+  import StackPercentage from '@/components/StackPercentage.vue';
+  
   export default {
+    components: {
+      StackPercentage,
+    },
+
     data() {
       this.stackLefts = [
         {  type: "NEXTJS", percentage: "90" },
